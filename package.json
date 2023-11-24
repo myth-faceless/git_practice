@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "backend practice",
   "type": "module",
-
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
@@ -14,5 +13,9 @@
     "git"
   ],
   "author": "faceless",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.1.0"
+  }
 }
